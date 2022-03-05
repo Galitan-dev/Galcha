@@ -1,0 +1,35 @@
+{
+  "name": "galcha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galitan-dev/Galcha.git"
+  },
+  "keywords": [],
+  "author": "Galitan-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Galitan-dev/Galcha/issues"
+  },
+  "homepage": "https://github.com/Galitan-dev/Galcha#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.26",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  }
+}
